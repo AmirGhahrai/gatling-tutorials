@@ -7,11 +7,12 @@ A simple showcase of a Gradle project using the Gatling plugin for Gradle. Refer
 This project is written in Scala, others are available for [Java](https://github.com/gatling/gatling-gradle-plugin-demo-java)
 and [Kotlin](https://github.com/gatling/gatling-gradle-plugin-demo-kotlin).
 
-It includes:
+## How to run the simulations
 
-* Gradle Wrapper, so you don't need to install Gradle (a JDK must be installed and $JAVA_HOME configured)
-* minimal `build.gradle` leveraging Gradle wrapper
-* latest version of `io.gatling.gradle` plugin applied
-* sample [Simulation](https://gatling.io/docs/gatling/reference/current/general/concepts/#simulation) class,
-demonstrating sufficient Gatling functionality
-* proper source file layout
+To run the simulations use the following command:
+
+`./gradlew gatlingRun-io.devqa.simulations.{simulation_class}`
+
+Example
+
+`./gradlew gatlingRun-io.devqa.simulations.ComputerDatabaseSimulation`
