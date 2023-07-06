@@ -1,4 +1,4 @@
-package computerdatabase
+package io.devqa.simulations
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
