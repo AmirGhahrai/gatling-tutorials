@@ -15,4 +15,4 @@ To run the simulations use the following command:
 
 Example
 
-`./gradlew gatlingRun-io.devqa.simulations.ComputerDatabaseSimulation`
+`./gradlew gatlingRun-io.devqa.simulations.LoginSimulation`
