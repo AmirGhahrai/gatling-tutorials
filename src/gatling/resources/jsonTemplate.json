@@ -1,0 +1,5 @@
+{
+  "orderId": "#{orderId}",
+  "customerId": "#{customerId}",
+  "amount": 10.00
+}
